@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B08B4FF4254E1A6C00C5AF8F /* bindingExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B4FF3254E1A6C00C5AF8F /* bindingExt.swift */; };
 		B0CC20F0254940EA00E67E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC20EF254940EA00E67E27 /* AppDelegate.swift */; };
 		B0CC20F2254940EA00E67E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC20F1254940EA00E67E27 /* SceneDelegate.swift */; };
-		B0CC20F4254940EA00E67E27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC20F3254940EA00E67E27 /* ContentView.swift */; };
+		B0CC20F4254940EA00E67E27 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC20F3254940EA00E67E27 /* RemindersView.swift */; };
 		B0CC20F7254940EA00E67E27 /* RemindersApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CC20F5254940EA00E67E27 /* RemindersApp.xcdatamodeld */; };
 		B0CC20F9254940ED00E67E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CC20F8254940ED00E67E27 /* Assets.xcassets */; };
 		B0CC20FC254940ED00E67E27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CC20FB254940ED00E67E27 /* Preview Assets.xcassets */; };
 		B0CC20FF254940ED00E67E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CC20FD254940ED00E67E27 /* LaunchScreen.storyboard */; };
+		B0CC210C2549449E00E67E27 /* NewReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC210B2549449E00E67E27 /* NewReminderView.swift */; };
+		B0CC210F2549FC5000E67E27 /* ReminderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC210E2549FC5000E67E27 /* ReminderDetail.swift */; };
+		B0CC2114254C715F00E67E27 /* CDReminder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC2112254C715F00E67E27 /* CDReminder+CoreDataClass.swift */; };
+		B0CC2115254C715F00E67E27 /* CDReminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC2113254C715F00E67E27 /* CDReminder+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B08B4FF3254E1A6C00C5AF8F /* bindingExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bindingExt.swift; sourceTree = "<group>"; };
 		B0CC20EC254940EA00E67E27 /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CC20EF254940EA00E67E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0CC20F1254940EA00E67E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0CC20F3254940EA00E67E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0CC20F3254940EA00E67E27 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
 		B0CC20F6254940EA00E67E27 /* RemindersApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersApp.xcdatamodel; sourceTree = "<group>"; };
 		B0CC20F8254940ED00E67E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CC20FB254940ED00E67E27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0CC20FE254940ED00E67E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0CC2100254940ED00E67E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CC210B2549449E00E67E27 /* NewReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewReminderView.swift; path = ../../tjndf6_Reminders/tjndf6_Reminders/MainScreen/NewReminderView.swift; sourceTree = "<group>"; };
+		B0CC210E2549FC5000E67E27 /* ReminderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetail.swift; sourceTree = "<group>"; };
+		B0CC2112254C715F00E67E27 /* CDReminder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CDReminder+CoreDataClass.swift"; path = "RemindersApp/CDReminder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B0CC2113254C715F00E67E27 /* CDReminder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CDReminder+CoreDataProperties.swift"; path = "RemindersApp/CDReminder+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B08B4FF2254E1A5900C5AF8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B08B4FF3254E1A6C00C5AF8F /* bindingExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B0CC20E3254940EA00E67E27 = {
 			isa = PBXGroup;
 			children = (
+				B0CC2112254C715F00E67E27 /* CDReminder+CoreDataClass.swift */,
+				B0CC2113254C715F00E67E27 /* CDReminder+CoreDataProperties.swift */,
 				B0CC20EE254940EA00E67E27 /* RemindersApp */,
 				B0CC20ED254940EA00E67E27 /* Products */,
 			);
@@ -60,7 +80,10 @@
 			children = (
 				B0CC20EF254940EA00E67E27 /* AppDelegate.swift */,
 				B0CC20F1254940EA00E67E27 /* SceneDelegate.swift */,
-				B0CC20F3254940EA00E67E27 /* ContentView.swift */,
+				B0CC210B2549449E00E67E27 /* NewReminderView.swift */,
+				B0CC210E2549FC5000E67E27 /* ReminderDetail.swift */,
+				B08B4FF2254E1A5900C5AF8F /* Extensions */,
+				B0CC20F3254940EA00E67E27 /* RemindersView.swift */,
 				B0CC20F8254940ED00E67E27 /* Assets.xcassets */,
 				B0CC20FD254940ED00E67E27 /* LaunchScreen.storyboard */,
 				B0CC2100254940ED00E67E27 /* Info.plist */,
@@ -149,9 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CC20F0254940EA00E67E27 /* AppDelegate.swift in Sources */,
+				B0CC210F2549FC5000E67E27 /* ReminderDetail.swift in Sources */,
+				B0CC2114254C715F00E67E27 /* CDReminder+CoreDataClass.swift in Sources */,
 				B0CC20F2254940EA00E67E27 /* SceneDelegate.swift in Sources */,
-				B0CC20F4254940EA00E67E27 /* ContentView.swift in Sources */,
+				B0CC210C2549449E00E67E27 /* NewReminderView.swift in Sources */,
+				B0CC20F4254940EA00E67E27 /* RemindersView.swift in Sources */,
+				B0CC2115254C715F00E67E27 /* CDReminder+CoreDataProperties.swift in Sources */,
 				B0CC20F7254940EA00E67E27 /* RemindersApp.xcdatamodeld in Sources */,
+				B08B4FF4254E1A6C00C5AF8F /* bindingExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
